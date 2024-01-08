@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "projectartists-b5ef8"
+  },
+  "targets": {
+    "projectartists-b5ef8": {
+      "site": "artists-demo",
+      "public": "public",
+      "hosting": {
+        "portal": [
+          "artists-demo"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
