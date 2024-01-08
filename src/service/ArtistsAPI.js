@@ -76,7 +76,7 @@ export default {
   async addRoleUsuario(role) {
     instance.defaults.headers.common["Authorization"] =
       "Bearer " + (await IAM.getToken());
-    return this.execute("put", "/addRole", null, role);
+    return this.execute("put", `/addRole?role=${role}`, null);
   },
   async listArtists() {
     instance.defaults.headers.common["Authorization"] =
